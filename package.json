@@ -1,0 +1,43 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "make:types": "npx openapi-typescript https://lmejwhikdoeyneehzvww.supabase.co/rest/v1/?apikey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxtZWp3aGlrZG9leW5lZWh6dnd3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTkyMTQzNDQsImV4cCI6MTk3NDc5MDM0NH0.5rw96btJbLtYXZFTIg5peSISjmMR6Jmjq0z6-hUXPCM --output src/types/supabase.ts"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.4",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@metaplex-foundation/js": "^0.13.3",
+    "@metaplex-foundation/mpl-token-metadata": "^2.2.2",
+    "@metaplex/js": "^4.12.0",
+    "@solana-mobile/wallet-adapter-mobile": "^0.0.1-alpha.8",
+    "@solana/spl-token": "^0.2.0",
+    "@solana/wallet-adapter-base": "^0.9.9",
+    "@solana/wallet-adapter-react": "^0.15.8",
+    "@solana/wallet-adapter-react-ui": "^0.9.11",
+    "@solana/wallet-adapter-wallets": "^0.17.0",
+    "@solana/web3.js": "^1.50.1",
+    "@supabase/supabase-js": "^1.35.4",
+    "bs58": "^5.0.0",
+    "framer-motion": "^6.5.1",
+    "next": "12.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tweetnacl": "^1.0.3",
+    "zod": "^3.17.3"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.0",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.2.3",
+    "typescript": "4.7.4"
+  }
+}
